@@ -1,3 +1,232 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	list-style: none;
+	margin: 0px;
+	padding: 0px
+}
+
+body {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: antiquewhite;
+	padding: 5px 100px 0px 100px;
+	align-items:center;
+	margin-top: 20px
+}
+
+h1 {
+	font-family: 'MuseoModerno';
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	color: #FFFFB6
+}
+h2 {
+	font-family: 'MuseoModerno';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 550;
+	color: #22574A;
+	padding: 0px 0px 5px 0px
+}
+h3 {
+	font-family: 'MuseoModerno';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	padding: 15px 0px 5px 0px;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 3px 0px
+}
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 15px
+}
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 300
+}
+
+header {
+	width: 1024px;
+	height: 140px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+	margin: 50px 0px;
+}
+#img-perfil{
+ 	position:absolute;
+	z-index:2;
+	background: #22574A;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px rgba(20, 35, 20, 0.5);
+	height: 266px;
+	width: 266px;
+	justify-content: center;
+	align-items: center;
+	
+}
+.datos {
+	width: 1000px;
+	height: 125px;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end;
+	background-color: #22574A;
+	margin: 50px 0px 50px 24px;
+	padding: 15px 100px;
+}
+.datos ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	color: #FFFFB6;
+	text-align: right
+}
+.mail-to{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	color: #FFFFB6;
+	text-align: right
+}
+main {
+	width: 1024px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.izq{
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	justify-content: flex-start;
+	margin-left: 50px
+	
+}
+.sobre-mi p{
+	font-family: 'MuseoModerno';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	color: #22574A;
+	padding: 0px 0px 20px 0px
+}
+.me-interesa div{
+	width: 236px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+}
+.der{
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start ;
+	justify-content: flex-start ;
+	margin-right: 125px
+}
+.niveles ul{
+	width: 550px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+	
+} 
+.niveles ul li{
+	width: 225px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+} 
+footer {
+	width:1024px;
+	height: 170px;
+	display: flex;
+	flex-direction: row;
+	background-color: #E6C9A6;
+	align-items:center;
+	justify-content:space-between;
+}
+nav{
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 50px
+}
+
+#Contacto {
+	display: flex;
+	flex-direction: column;
+}
+#Contacto li {
+	display: flex;
+	flex-direction: row;
+	align-items:stretch;
+	justify-content:space-between;
+}
+footer div{
+	width: 350px;
+	height: 180px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	margin-right: 50px
+}
+a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	color: black
+}
+a:hover{
+	color: #FFFFB6;
+	font-size: 13px;
+	font-weight: 900
+}
+footer div p{
+	font-family: 'MuseoModerno';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFB6;
+	padding-bottom: 30px;
+	padding-right: 10px
+}
+.circle {
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px rgba(15, 28, 63, 0.125);
+	height: 150px;
+	width: 150px;
+	justify-content: center
+}
