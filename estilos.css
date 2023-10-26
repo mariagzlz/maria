@@ -12,127 +12,185 @@ body {
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	background-color: antiquewhite;
-	padding: 5px 100px 0px 100px;
+	background-color: #FFFFB6;
+	padding: 0px 150px;
 	align-items:center;
-	margin-top: 20px
 }
 
 h1 {
 	font-family: 'MuseoModerno';
-	font-size: 40px;
+	font-size: 55px;
 	font-style: normal;
-	font-weight: 700;
-	color: #FFFFB6
+	font-weight: 900;
+	color: #22574A;
 }
 h2 {
 	font-family: 'MuseoModerno';
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 550;
-	color: #22574A;
-	padding: 0px 0px 5px 0px
-}
-h3 {
-	font-family: 'MuseoModerno';
-	font-size: 20px;
+	font-size:36px;
 	font-style: normal;
 	font-weight: 500;
-	padding: 15px 0px 5px 0px;
+	color: #22574A;
+	padding: 10px 0 20px 0
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	color: #22574A
 }
 h4 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 700;
-	padding: 3px 0px
-}
-h5 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	padding-bottom: 15px
+	color: #22574A
 }
-h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+strong {
+	font-family: 'MuseoModerno';
+	font-size: 50px;
 	font-style: normal;
-	font-weight: 300
+	font-weight: 900;
+	color: #22574A;
+	line-height: 80px;
+	text-align: end
 }
-
 header {
-	width: 1024px;
-	height: 140px;
+	width: 100%;
+	height: 40px;
 	display: flex;
 	flex-direction: row;
 	align-items:center;
-	justify-content:space-between;
-	margin: 50px 0px;
+	justify-content:flex-end;
+	margin: 40px 0px 130px 0px
+}
+nav{
+	
+}
+
+button {
+	width: 250px;
+	height: 50px;
+	border-radius: 25px;
+	background: #E2CAF5;
+	outline: none;
+	border: none;
+	margin: 0px 10px;
+	color: white;
+	font-family: 'MuseoModerno';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+}
+button:hover {
+  box-shadow: 0px 3px white;
+  top: 1px;
+}
+button:active {
+  box-shadow: 0 0 #E2CAF5;
+  top: 5px;
 }
 
 main {
-	width: 1024px;
+	width: 100%;
 	display: flex;
 	flex-direction:column;
 	align-items:center;
 	justify-content:space-between;
 	
 }
-
-.sobre-mi p{
-	font-family: 'MuseoModerno';
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 300;
-	color: #22574A;
-	padding: 0px 0px 20px 0px
-}
-.me-interesa div{
-	width: 236px;
-	display: flex;
-	flex-direction: row;
-	align-items:center;
-	justify-content:space-between;
-}
-
-.niveles{
+#ilustracion {
 	width: 550px;
+	height: 650px;
+}
+.sobre-mi {
+	width: 100%;
+	height: 900px;
 	display: flex;
 	flex-direction: row;
-	align-items:center;
-	justify-content:space-between;
-	
-} 
-.niveles li{
-	width: 225px;
-	height: 40px;
-	display: flex;
-	flex-direction: row;
-	align-items:center;
-	justify-content:space-between;
-} 
-footer {
-	width:1024px;
-	height: 170px;
-	display: flex;
-	flex-direction: row;
-	background-color: #E6C9A6;
-	align-items:center;
+	align-items:stretch;
 	justify-content:space-between;
 }
-nav{
-	width: 150px;
-	height: 150px;
+.sobre-mi div {
+	width: 66%;
+	height: 640px;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+}
+#intro {
+	width: 890px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 50px
+	justify-content: center;
+	color: #22574A;
+	font-family: 'MuseoModerno';
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 80px;
+}
+#formacion {
+	width: 450px;
+	background: #E2CAF5;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: center
 }
 
-#Contacto {
+#cv li {
+	width: 450px;
+	padding-bottom: 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+#idiomas li{
+	width: 450px;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+} 
+
+#experincia {
+	width: 890px;
+	height: 100%;
+	font-family: 'MuseoModerno';
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 70px;
+	color: #22574A;
+
+}
+footer {
+	width:100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	background-color: #E2CAF5;
+	padding: 0 150px;
+	align-items:center;
+	justify-content:space-between;
+}
+#Contacto {
+	width:55%;
+	display: flex;
+	flex-direction: row;
+	align-items:stretch;
+	justify-content:space-between;
+}
+.iconos {
+	height: 20px;
+	
 }
 #Contacto li {
 	display: flex;
@@ -140,33 +198,16 @@ nav{
 	align-items:stretch;
 	justify-content:space-between;
 }
-footer div{
-	width: 350px;
-	height: 180px;
-	display: flex;
-	flex-direction: row;
-	align-items:center;
-	margin-right: 50px
-}
-a{
+#Contacto li a{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	color: black
+	color: #22574A
 }
-a:hover{
+#Contacto li a:hover{
 	color: #FFFFB6;
-	font-size: 13px;
-	font-weight: 900
-}
-footer div p{
-	font-family: 'MuseoModerno';
 	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	color: #FFFFB6;
-	padding-bottom: 30px;
-	padding-right: 10px
+	font-weight: 900
 }
