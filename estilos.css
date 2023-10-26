@@ -70,61 +70,16 @@ header {
 	justify-content:space-between;
 	margin: 50px 0px;
 }
-#img-perfil{
- 	position:absolute;
-	z-index:2;
-	background: #22574A;
-	border-radius: 50%;
-	box-shadow: 0px 0px 5px 5px rgba(20, 35, 20, 0.5);
-	height: 266px;
-	width: 266px;
-	justify-content: center;
-	align-items: center;
-	
-}
-.datos {
-	width: 1000px;
-	height: 125px;
-	display: flex;
-	flex-direction: column;
-	align-items:flex-end;
-	background-color: #22574A;
-	margin: 50px 0px 50px 24px;
-	padding: 15px 100px;
-}
-.datos ul li {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: 500;
-	color: #FFFFB6;
-	text-align: right
-}
-.mail-to{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: 500;
-	color: #FFFFB6;
-	text-align: right
-}
+
 main {
 	width: 1024px;
 	display: flex;
-	flex-direction: row;
+	flex-direction:column;
 	align-items:center;
 	justify-content:space-between;
 	
 }
-.izq{
-	width: 230px;
-	display: flex;
-	flex-direction: column;
-	align-items:flex-start;
-	justify-content: flex-start;
-	margin-left: 50px
-	
-}
+
 .sobre-mi p{
 	font-family: 'MuseoModerno';
 	font-size: 20px;
@@ -140,15 +95,8 @@ main {
 	align-items:center;
 	justify-content:space-between;
 }
-.der{
-	width: 550px;
-	display: flex;
-	flex-direction: column;
-	align-items:flex-start ;
-	justify-content: flex-start ;
-	margin-right: 125px
-}
-.niveles ul{
+
+.niveles{
 	width: 550px;
 	display: flex;
 	flex-direction: row;
@@ -156,7 +104,7 @@ main {
 	justify-content:space-between;
 	
 } 
-.niveles ul li{
+.niveles li{
 	width: 225px;
 	height: 40px;
 	display: flex;
@@ -221,12 +169,4 @@ footer div p{
 	color: #FFFFB6;
 	padding-bottom: 30px;
 	padding-right: 10px
-}
-.circle {
-	background: white;
-	border-radius: 50%;
-	box-shadow: 0px 0px 5px 5px rgba(15, 28, 63, 0.125);
-	height: 150px;
-	width: 150px;
-	justify-content: center
 }
