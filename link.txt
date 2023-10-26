@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="María González" content="Curriculum Vitae">
+	<title>Portfolio: María González</title>
+	<style type= "text/css"> </style>
+	<link href="estilos.css" rel="stylesheet" type= "text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital@0;1&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<button>Sobre mí</button>
+			<button>Portfolio</button>
+		</nav>
+	</header>
+	<main>
+		<section>
+		</section>
+		<section>
+			<article>
+			</article>
+			<article>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<img src="img/icono.svg" alt="icono" width="80px" height="41.1px">
+		<ul id="Contacto">
+			<li>
+				<a href="https://t.me/mariagzlz" target="_blank">@mariagzlz</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/mariagzlz/" target="_blank">/mariagzlz</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/mariagzlz" target="_blank">/mariagzlz</a>
+			</li>
+			<li>
+				<a href="mailto:mariagzlz97@gmail.com Subject=Hola%Maria" target="_blank">Escribíme</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
+
+
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="María González" content="Curriculum Vitae">
+	<title>About: María González</title>
+	<style type= "text/css"> </style>
+	<link href="estilos.css" rel="stylesheet" type= "text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital@0;1&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<button>Sobre mí</button>
+			<button>Portfolio</button>
+		</nav>
+	</header>
+	<main>
+		<section id="intro">
+			<img>
+			<div>
+				<article class="sobre-mi">
+					<h1>¡Hola!</h1>
+					<p>Mi nombre es María.</p>
+					<p>Vivo en Buenos Aires, Argentina.</p>
+					<p>Y soy estudiante de la Lic. en Diseño y Comunicación Visual en la UNLa.</p>
+				</article>
+				<article class="me-interesa">
+					<p>Desde hace más de un año estoy desarrllandome como diseñadora freelace.</p>
+					<p>Tengo experiencia trabajando en proyectos de identidad y branding, en diseño editorial y en el desarrollo de piezas impresas y digitales.</p>
+				</article>
+			</div>
+		</section>
+		<section id="skills">
+			<article>
+				<h3>Conocimientos</h3>
+				<ul class="niveles">
+					<li>
+						<h4>Ilustrator</h4>
+						<img src= "img/5-5.svg" width="120.5px" height="20.5px" alt="Barra ilustrator">
+					</li>
+					<li>
+						<h4>Photoshop</h4>
+						<img src= "img/4-5.svg" width="120.5px" height="20.5px" alt="Barra photoshop">
+					</li>
+					<li>
+						<h4>After Effects</h4>
+						<img src= "img/2-5.svg" width="120.5px" height="20.5px" alt="Barra premiere">
+					</li>
+					<li>
+						<h4>Premiere</h4>
+						<img src= "img/3-5.svg" width="120.5px" height="20.5px" alt="Barra premiere">
+					</li>
+					<li>
+						<h4>InDesing</h4>
+						<img src= "img/4-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Indesing">
+					</li>	
+					<li>
+						<h4>RRSS</h4>
+						<img src="img/4-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Redes Sociales">
+					</li>
+				</ul>
+			</article>
+			<article>
+				<h3>Otros idiomas</h3>
+				<ul class="niveles">
+					<li>
+						<h4>Ingles</h4>
+						<img src="img/4-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Ingles">	
+					</li>
+					<li>
+						<h4>Portugues</h4>	
+						<img src="img/1-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Portugues">
+					</li>
+				</ul>
+			<article>
+			<article>
+				<h3>Formación y experiencia</h3>
+				<ul class="formación">
+					<li>
+						<h4>Diseñadora Freelance, actualmente</h4>
+						<h5>Piezas impresas y/o digitales, Identidad, Branding, Editorial, etc. </h5>
+					</li>
+				
+					<li>
+						<h4>Licenciatura en Diseño y  Comunicación Visual</h4>
+						<h5>Universidad Nacional de Lanús, en curso.</h5>
+					</li>
+					<li>
+						<h4>Taller de Introducción al mundo UX</h4>
+						<h5>Universidad Nacional de Almirante Brown,2023.</h5>
+					</li>
+					<li>
+						<h4>Taller de Serigrafía</h4>
+						<h5>Universidad Nacional de Lanús, 2016.</h5>
+					</li>
+				</ul>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<img src="img/icono.svg" alt="icono" width="80px" height="41.1px">
+		<ul id="Contacto">
+			<li>
+				<a href="https://t.me/mariagzlz" target="_blank">@mariagzlz</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/mariagzlz/" target="_blank">/mariagzlz</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/mariagzlz" target="_blank">/mariagzlz</a>
+			</li>
+			<li>
+				<a href="mailto:mariagzlz97@gmail.com Subject=Hola%Maria" target="_blank">mariagzlz97@gmail.com</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
+
+##Link a mi CV
+Acá mi pagina → https://mariagzlz.github.io/maria/
