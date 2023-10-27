@@ -272,7 +272,11 @@ main {
 	height: auto;
 	display: flex;
 }
-
+.carrousel {
+	width: 100%;
+	height: auto;
+	margin: 20px 0px;
+}
 .carrousel-fotos {
 	display: flex;
 	gap:10px;
@@ -281,18 +285,16 @@ main {
 
 
 .carrousel-fotos img{
-	width: 1070px;
-	height: 800px;
+	width: 1075px;
 	border-radius: 15px;
 	
 }
 .carrousel-menu {
-	width: 500px;
+	width: 50%;
 	display:flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	
 }
 .boton-carrousel {
 	width: 10px;
@@ -301,20 +303,6 @@ main {
 	background-color: white;
 	
 }
-/* @media screen and (min-width: 600px) {
-	.carrousel-fotos {
-		overflow: hidden;
-	}
-
-	.carrousel-menu {
-		width: 500px;
-		display:flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-around;
-	}
-} */
-
 footer {
 	width:auto;
 	height: auto;
