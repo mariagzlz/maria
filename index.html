@@ -13,63 +13,75 @@
 <body>
 	<header>
 		<nav>
-			<button>Sobre mí</button>
-			<button>Portfolio</button>
+			<a href="index.html"><button class="botonera">Sobre mí</button></a>
+			<a href="portfolio.html"><button class="botonera">Portfolio</button></a>
 		</nav>
 	</header>
-	<main>
-		<section class="sobre-mi">
-			<img src="img/ilustracion-02.svg" alt="ilustracion de personaje" id="ilustracion">
-			<div>
-				<h1>¡Hola!</h1>
-				<article id="intro">
-					<p>Mi nombre es María Gonzalez.</p>
-					<p>Soy estudiante de la Lic. en Diseño y Comunicación Visual en la UNLa, en Buenos Aires.</p>
-					<strong>...y soy Margo.</strong>
-				</article>
-			</div>
+	<main class="main-container">
+		<section class="grid-item img">
+			<img src="img/ilustracion-1.svg" alt="ilustracion de personaje" id="ilustracion">
 		</section>
-		<section class="sobre-mi">
+		<section class="grid-item intro">
+			<h1 class="index">¡Hola!</h1>
+			<article id="intro">
+				<p>Mi nombre es María Gonzalez.</p>
+				<p>Soy estudiante de la Lic. en Diseño y Comunicación Visual en la UNLa, en Buenos Aires.</p>
+				<strong>...y soy Margo.</strong>
+			</article>
+		</section>
+		<section class="grid-item experiencia">
+			<article id="experincia">
+				<p>Desde hace más de un año estoy desarrollandome como diseñadora freelace.</p>
+				<p>Tengo experiencia trabajando en proyectos de identidad y branding, en diseño editorial y en el desarrollo de piezas impresas y digitales.</p>
+			</article>
+		</section>
+		<section class="grid-item intereses">
+			<article id="intereses">
+				<img src="img/avion.svg" alt="viajes" class="pictogramas">
+				<img src="img/taza.svg" alt="infusiones y merienda" class="pictogramas">
+				<img src="img/auriculares.svg"  alt="escuchar musica" class="pictogramas">
+				<img src="img/camara.svg" alt="fotografia" class="pictogramas">
+			</article>
+		</section>
+		<section class="grid-item formacion">
 			<article id="formacion">
 				<h2>Formación y experiencia</h2>
-				<ul id="cv">
+				<ul>
 					<li>
-						<h3>→ Diseñadora Freelance (actualmente)</h3>
+						<h3 class="index">→ Diseñadora Freelance (actualmente)</h3>
 						<h4>Piezas impresas y/o digitales, Identidad, Branding, Editorial, etc. </h4>
 					</li>
 					<li>
-						<h3>→ Lic. en Diseño y  Comunicación Visual</h3>
+						<h3 class="index">→ Lic. en Diseño y  Comunicación Visual</h3>
 						<h4>Universidad Nacional de Lanús. Actualmente, en curso.</h4>
 					</li>
 					<li>
-						<h3>→ Taller de Introducción al mundo UX</h3>
+						<h3 class="index">→ Taller de Introducción al mundo UX</h3>
 						<h4>Universidad Nacional de Almirante Brown, 2023.</h4>
 					</li>
 					<li>
-						<h3>→ Taller de Serigrafía</h3>
+						<h3 class="index">→ Taller de Serigrafía</h3>
 						<h4>Universidad Nacional de Lanús, 2016.</h4>
 					</li>
 				</ul>
+			</article>	
+			<article id="idiomas">
 				<h2>Otros idiomas</h2>
-				<ul id="idiomas">
+				<ul>
 					<li>
-						<h3>Ingles</h3>
-						<img src="img/4-5.svg" width="241px" height="41px" alt="Barra de nivel. Ingles">	
+						<h3 class="index">Ingles</h3>
+						<img src="img/barra4-5v.svg" alt="Barra de nivel. Ingles" class="nivel-idiomas">	
 					</li>
 					<li>
-						<h3>Portugues</h3>	
-						<img src="img/1-5.svg" width="241px" height="41px" alt="Barra de nivel. Portugues">
+						<h3 class="index">Portugues</h3>	
+						<img src="img/barra1-5v.svg" alt="Barra de nivel. Portugues" class="nivel-idiomas">
 					</li>
 				</ul>
-			</article>
-			<article id="experincia">
-					<p>Desde hace más de un año estoy desarrollandome como diseñadora freelace.</p>
-					<p>Tengo experiencia trabajando en proyectos de identidad y branding, en diseño editorial y en el desarrollo de piezas impresas y digitales.</p>
 			</article>
 		</section>
 	</main>
 	<footer>
-		<img src="img/margo.svg" alt="icono" width="208,13px" height="55px">
+		<img src="img/margo.svg" id="logo-footer" alt="logo">
 		<ul id="Contacto">
 			<li>
 				<img src="img/telegram.svg" alt="telegram" class="iconos">

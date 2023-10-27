@@ -11,66 +11,122 @@
 	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="portfolio">
 	<header>
 		<nav>
-			<button>Sobre mí</button>
-			<button>Portfolio</button>
+			<a href="index.html"><button>Sobre mí</button></a>
+			<a href="portfolio.html"><button>Portfolio</button></a>
 		</nav>
 	</header>
-	<main>
-		<section>
-			<h1>Skills</h1>
-			<article class="conocimientos">
-				<ul class="niveles">
+	<main class="main-container">
+		<section class="grid-item titulos">
+			<h1 class="portfolio">Skills →</h1>
+		</section>
+		<section class="grid-item skills">
+				<ul class="niveles-conteiner">
 					<li>
-						<h3>Ilustrator</h3>
-						<img src= "img/5-5.svg" width="120.5px" height="20.5px" alt="Barra ilustrator">
+						<h3 class="portfolio">Ilustrator</h3>
+						<img src= "img/barra5-5a.svg" alt="Barra ilustrator" class="nivel-skills">
 					</li>
 					<li>
-						<h3>Photoshop</h3>
-						<img src= "img/4-5.svg" width="120.5px" height="20.5px" alt="Barra photoshop">
+						<h3 class="portfolio">Photoshop</h3>
+						<img src= "img/barra4-5a.svg" alt="Barra photoshop" class="nivel-skills">
 					</li>
 					<li>
-						<h3>After Effects</h3>
-						<img src= "img/2-5.svg" width="120.5px" height="20.5px" alt="Barra premiere">
+						<h3 class="portfolio">After Effects</h3>
+						<img src= "img/barra2-5a.svg" alt="Barra premiere" class="nivel-skills">
 					</li>
 					<li>
-						<h3>Premiere</h3>
-						<img src= "img/3-5.svg" width="120.5px" height="20.5px" alt="Barra premiere">
+						<h3 class="portfolio">Premiere</h3>
+						<img src="img/barra3-5a.svg" alt= "Barra premiere" class="nivel-skills">
 					</li>
 					<li>
-						<h3>InDesing</h3>
-						<img src= "img/4-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Indesing">
+						<h3 class="portfolio">InDesing</h3>
+						<img src= "img/barra4-5a.svg" alt="Barra de nivel. Indesing" class="nivel-skills">
 					</li>	
 					<li>
-						<h3>RRSS</h3>
-						<img src="img/4-5.svg" width="120.5px" height="20.5px" alt="Barra de nivel. Redes Sociales">
+						<h3 class="portfolio">RRSS</h3>
+						<img src="img/barra5-5a.svg" alt="Barra de nivel. Redes Sociales" class="nivel-skills">
 					</li>
 				</ul>
-			</article>
 		</section>
-		<section>
-		<section>
-				<h1>Porfolio</h1>
-				<article><!-- galeria--></article>
+		<section class="grid-item titulos">
+			<h1 class="portfolio">Porfolio →</h1>
+		</section>
+		<section class="grid-item galerias">
+			<div>
+				<ul class="carrousel-fotos">
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-a.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-b.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-c.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-d.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-e.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-f.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-g.jpg" alt="Proyecto Da Vinci">
+					</li>
+					<li id="carrousel1-a">
+						<img src="img/carrousel1-h.jpg" alt="Proyecto Da Vinci">
+					</li>
+				</ul>
+				<ul class="carrousel-menu">
+					<li>
+						<a href="carrousel1-a"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-b"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-c"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-d"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-e"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-f"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-g"><button class="boton-carrousel"></button></a>
+					</li>
+					<li>
+						<a href="carrousel1-h"><button class="boton-carrousel"></button></a>
+					</li>
+				</ul>
+			</div>
 		</section>
 	</main>
-	<footer>
-		<img src="img/icono.svg" alt="icono" width="80px" height="41.1px">
+<footer>
+		<img src="img/margo.svg" id="logo-footer" alt="logo">
 		<ul id="Contacto">
 			<li>
-				
+				<img src="img/telegram.svg" alt="telegram" class="iconos">
 				<a href="https://t.me/mariagzlz" target="_blank">@mariagzlz</a>
 			</li>
 			<li>
+				<img src="img/linkedin.svg" alt="linkedin" class="iconos">
 				<a href="https://www.linkedin.com/in/mariagzlz/" target="_blank">/mariagzlz</a>
 			</li>
 			<li>
+				<img src="img/behance.svg" alt="behance" class="iconos">
 				<a href="https://www.behance.net/mariagzlz" target="_blank">/mariagzlz</a>
 			</li>
 			<li>
-				<a href="mailto:mariagzlz97@gmail.com Subject=Hola%Maria" target="_blank">Escribíme!</a>
+				<a href="mailto:mariagzlz97@gmail.com Subject=Hola%Maria" target="_blank">→ Escribíme!</a>
 			</li>
 		</ul>
 	</footer>
