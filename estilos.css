@@ -24,7 +24,6 @@ h1 {
 	font-style: normal;
 	font-weight: 800;
 }
-
 h2 {
 	font-family: 'MuseoModerno';
 	font-size:2.5em;
@@ -71,9 +70,19 @@ nav{
     gap: 10px;
 	position: fixed;
 	top: 50px;
-	z-index: 10
+	z-index: 10;
+	animation: fade-in 2s ease-in;
 }
-
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: translate 0, -100%, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
 .botonera {
 	width: 300px;
 	height: 70px;
@@ -235,7 +244,7 @@ footer {
 }
 #experincia {
 	font-family: 'MuseoModerno';
-	font-size: 2em;
+	font-size: 2.5em;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 70px;
@@ -431,6 +440,12 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
+	h1 {
+	font-size: 3em;
+	}
+	h2 {
+		font-size:2em;
+	}
 	nav{
 		top: 50px;
 	}
@@ -445,7 +460,7 @@ footer {
 	.img {
 		height: 2000px;
 		top: 210px;
-		margin-bottom: 70px;
+		margin-bottom: 5px;
 	}
 	footer {
 		padding: 20px 75px;
@@ -460,13 +475,16 @@ footer {
     	justify-content: space-around
 	}
 	#intro {
+		font-size: 2.5em;
 		margin-left: 10%;
 	}
 	.experiencia {
 		margin-left: 10%;
 		height: 800px;
 }
-
+	#experiencia {
+		font-size: 2em;
+	}
 	#idiomas ul {
 		width: 100%;
 		flex-direction: column;
@@ -493,6 +511,18 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+	h1 {
+	font-size: 2.5em;
+	}
+	h2 {
+		font-size:1.5em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1.4em;
+	}
 	header {
 		padding: 0px 50px;
 		margin: 50px 0px;
@@ -507,17 +537,18 @@ footer {
 	main {
 		padding: 0px 50px;
 	}
-	
-	
 	.intro {
 		height: 600px;
 		display: flex;
 		flex-direction: column;
     	justify-content: space-around
 	}
-	.experiencia {
+	#intro {
+		font-size: 2em;
 		margin-left: 10%;
-		height: 800px;
+	}
+	#experiencia {
+		font-size: 1.5em;
 	}
 	.formacion {
 		padding: 25px 50px;
