@@ -122,7 +122,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	background-color: #E2CAF5;
-	padding: 20px 0px;
+	padding: 20px 5%;
 	align-items:center;
 	justify-content:space-between;
 }
@@ -319,7 +319,7 @@ footer {
 }
 .main-container-portfolio {
 	display: grid;
-	grid-template: 1fr 1fr / 1fr 2fr;
+	grid-template: 1fr 2fr / 1fr 2fr;
 	grid-gap: 5px;
 	align-items: flex-start;
 }
@@ -654,16 +654,10 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		
-		/* Intente hacer el responsive con grid así, pero no funcionó
-		display:grid;
-		grid-template: 500px 1fr 1fr 1fr 1fr / 1fr 2fr;
-		grid-template-areas: "img img"  "intro intro" "intereses intereses" "experiencia experiencia" "formacion formacion";
-		grid-gap: 25px;*/
 		}
 	.img {
 		width: 80%;
-		height: 850px;
+		height: 500px;
 		align-items: center;
 		justify-content: center;
 		grid-area:inherit;
@@ -703,7 +697,7 @@ footer {
 		gap:40px;
 	}
 	.pictogramas {
-		height: 50x		
+		height: 50px;
 	}
 	.formacion {
 		padding: 20px 35px;
@@ -716,11 +710,6 @@ footer {
 		gap: 0px;
 		align-items: center;
 		justify-content: center
-		
-		/* Intente hacer el responsive con grid así, pero no funcionó
-		display:grid;
-		grid-template: 150px 1fr 150px 1fr / 1fr 2fr;
-		grid-gap: 10px;*/
 	}
 	.titulos {
 		height: 100px;
