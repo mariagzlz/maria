@@ -669,7 +669,7 @@ textarea{
 	}
 }
 
-@media screen and (max-width : 900px ){
+@media screen and (max-width : 900px) {
 	header {
 		justify-content: center;
 		margin: 0px;
